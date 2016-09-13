@@ -9,22 +9,21 @@
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>
-//#include "second.c"
-//#include "three.c"
-//#include "four.c"
 extern void printwo(void);
 extern void printhree(void);
 extern void prinfour(void);
+extern double pow(double,double);
 extern int a,b;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
-    printf("当前类型占用长度:%lu,\n最小：%f,\n最大：%f,\n精度：%d\n",sizeof(float),FLT_MAX,FLT_MAX,FLT_DIG);
-//    int a = 1;
-//    int b = 2;
-    printf("%d\n",a+b);
-    printf("%d\n",2^0);
+    printf("当前类型占用长度:%lu,\n最小：%f,\n最大：%f,\n精度：%d\n",sizeof(float),FLT_MIN,FLT_MAX,FLT_DIG);
+    int a = 0x1lu;
+    int b = 1E1-2;
+    double ccc = pow(a,b);
+    printf("a+b=%d\n\a",a+b);
+    printf("%d,%f\n",2^0,ccc);
     printwo();
     printhree();
     prinfour();
