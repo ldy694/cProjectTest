@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0107AD991D87FF4100ED37F9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0107AD981D87FF4100ED37F9 /* main.c */; };
+		0107ADA11D87FF9300ED37F9 /* second.c in Sources */ = {isa = PBXBuildFile; fileRef = 0107AD9F1D87FF9300ED37F9 /* second.c */; };
+		0107ADA41D880D6100ED37F9 /* three.c in Sources */ = {isa = PBXBuildFile; fileRef = 0107ADA21D880D6100ED37F9 /* three.c */; };
+		0107ADA61D880D8300ED37F9 /* four.c in Sources */ = {isa = PBXBuildFile; fileRef = 0107ADA51D880D8300ED37F9 /* four.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0107AD951D87FF4100ED37F9 /* CProjectTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProjectTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0107AD981D87FF4100ED37F9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0107AD9F1D87FF9300ED37F9 /* second.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = second.c; sourceTree = "<group>"; };
+		0107ADA21D880D6100ED37F9 /* three.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = three.c; sourceTree = "<group>"; };
+		0107ADA51D880D8300ED37F9 /* four.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = four.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0107AD981D87FF4100ED37F9 /* main.c */,
+				0107ADA51D880D8300ED37F9 /* four.c */,
+				0107ADA21D880D6100ED37F9 /* three.c */,
+				0107AD9F1D87FF9300ED37F9 /* second.c */,
 			);
 			path = CProjectTest;
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0107ADA41D880D6100ED37F9 /* three.c in Sources */,
 				0107AD991D87FF4100ED37F9 /* main.c in Sources */,
+				0107ADA11D87FF9300ED37F9 /* second.c in Sources */,
+				0107ADA61D880D8300ED37F9 /* four.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
